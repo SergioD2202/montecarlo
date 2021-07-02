@@ -1,0 +1,23 @@
+{
+  "name": "montecarlo",
+  "version": "1.0.0",
+  "description": "Simulación del método de Montecarlo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergioD2202/montecarlo.git"
+  },
+  "author": "Sergio_Delgado,Adriana_Argüello,Klissman_Granados",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SergioD2202/montecarlo/issues"
+  },
+  "homepage": "https://github.com/SergioD2202/montecarlo#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
