@@ -33,7 +33,8 @@ const requesting = async (tests) => {
 
         const json = JSON.parse(data)
 
-        doc.innerHTML = `El valor exacto de la integral es ${json.exacta}, el valor estimado es ${json.estimada} con un margen de error de ${json.error}`
+        doc.innerHTML = `<h1>El valor exacto de la integral es ${json.exacta}, el valor estimado es ${json.estimada} con un margen de error de ${json.error}</h1>
+        <img src="grafica.png" alt="grafica.png">`
     } catch (error) { 
         console.error(error)
     }
